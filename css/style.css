@@ -1,0 +1,221 @@
+:root {
+  --blanco: #fbfbfb;
+  --negro: #000000;
+  --naranja: #d08770;
+  --azul: #5e81ac;
+  --llave: rgb(206,51,136);
+  --llave_peq: #faef00;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--negro);
+  color: var(--blanco);
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.1);
+  overflow-x: hidden;
+  transition: 0.5s;
+  overflow-y: hidden; /* para desactivar el scroll bar vertical*/
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--azul); 
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* el icono de Cerrar el menu */
+.overlay .closebtn { 
+  position: absolute;
+  color:var(--blanco);
+  top: 20px;
+  right: 45px;
+  font-size: 50px;
+}
+
+/* el icono de Home, para volver arriba de la pagina con anclaje */
+.overlay .icon_home {
+  position: absolute;
+  color: var(--blanco);
+  top: 38px;
+  right: 10px;
+  font-size: 28px;
+}
+
+.hamb{
+  color: var(--azul);
+}
+
+/* la clase del titulo YOUSSEF MARJAN */
+.llave{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4rem;
+  color: var(--llave);
+}
+
+.inicio{
+position: fixed;
+}
+
+.parrafo{
+  font-family: 'Quicksand',sans-serif;
+  font-size: 1.5rem;
+  margin-right: -400px;
+}
+
+.img_ysf{
+  position: absolute;
+  z-index: -1;
+}
+
+.img_signture{
+  width: 20%;
+  margin-right: -400px;
+  margin-bottom: 30rem;
+}
+
+/* la clase del titulo pequeño, Web designer Front-end */
+.llave_pequeña{
+  font-size: 1.5rem;
+  color:var(--llave_peq);
+}
+
+.etiqueta{
+  width: 40px;
+}
+
+.icon_datos{
+  font-size: 1.5rem;
+  color:var(--llave_peq);
+}
+
+h1{
+  letter-spacing: 5px;
+  margin-top: 10rem;
+}
+
+h5{
+  margin-bottom: 10rem;
+}
+h1, h5 {
+  margin-right: -400px; 
+}
+
+h2{
+  color: var(--llave_peq);
+  letter-spacing: 8px;
+}
+
+h6{
+  color: var(--azul);
+}
+
+.parrafo_datos_personales{
+  font-size: 1.5rem;
+}
+
+.margin_formacion{
+  margin-top: 25rem;
+}
+
+.margin_conocimientos{
+  margin-top: 25rem;
+  margin-bottom: 2rem;
+}
+
+.margin_experiencia{
+  margin-top: 25rem;
+}
+
+.boton_descargar{
+  font-size: 4rem;
+  
+  margin-top: 18rem;
+}
+
+a {
+  color:var(--azul);
+  text-decoration:none;
+}
+
+
+a:hover{
+  color:var(--llave_peq);
+}
+
+progress{
+  margin-left: 8px;
+}
+
+.idiomas{
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.idiomas p{
+  text-align: left;
+}
+
+.icon_plegable{
+  width:15px;
+  margin-bottom: 40px;
+}
+
+section{
+display:flex;
+flex-direction: column;
+margin-left: 0, auto;
+align-items:center;
+}
+
+article p{
+  color:var(--azul);
+}
+aside p{
+  color:var(--azul);
+}
+
+.oculto{
+display:none;
+  }
+
+.oculto_ex{
+  display:none;
+}
+
+.img_conocimientos{
+  width: 100px;
+  margin:5px;
+}
+
+
+footer{
+  margin-top: 8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
