@@ -171,16 +171,6 @@ progress{
   margin-left: 8px;
 }
 
-.idiomas{
-  display:flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.idiomas p{
-  text-align: left;
-}
-
 .icon_plegable{
   width:15px;
   margin-bottom: 40px;
