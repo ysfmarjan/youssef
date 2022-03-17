@@ -1,7 +1,7 @@
 // Script - Menú de cortina
    
         function openNav() {
-          document.getElementById("myNav").style.width = "25%"; // Parametro para cambiar el width del overly
+          document.getElementById("myNav").style.width = "52%"; // Parametro para cambiar el width del overly
         }
 
         function closeNav() {
